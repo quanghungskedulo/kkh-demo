@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ParentObject",
+  "name": "TextField",
+  "field": {
+    "type": "String",
+    "description": "Sample text Field Editable and required on Mobile ",
+    "display": {
+      "label": "Text Field",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": false,
+      "showOnMobile": true,
+      "editableOnMobile": true,
+      "requiredOnMobile": true
+    },
+    "constraints": {
+      "required": false,
+      "unique": false,
+      "accessMode": "ReadWrite",
+      "maxLength": 255
+    }
+  }
+}

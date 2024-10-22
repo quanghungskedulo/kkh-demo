@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ChildObject",
+  "name": "User",
+  "field": {
+    "type": "Lookup",
+    "description": "Lookup field to User object",
+    "display": {
+      "label": "User Lookup",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": false,
+      "showOnMobile": false,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": false,
+      "accessMode": "ReadWrite"
+    },
+    "relationship": {
+      "targetObjectName": "Users"
+    }
+  }
+}

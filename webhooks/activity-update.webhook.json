@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "type": "Webhook"
+  },
+  "name": "activity-update",
+  "webhook": {
+    "url": "https://test.com/ws/rest/ol/activities",
+    "headers": {
+      "Authorization": "Basic {{ TOKEN_GOES_HERE }}"
+    },
+    "query": "subscription {\nschemaActivities(operation: [UPDATE], extendedFilter: \"Current.Start == Previous.Start \") {\n operation\n timestamp\n data {\n UID\n Name\n Start\n End\n CreatedDate\n Type\n ResourceId\n }\n previous {\n Start\n End\n CreatedDate\n Type\n }\n}\n}",
+    "type": "graphql"
+  }
+}

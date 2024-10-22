@@ -1,0 +1,21 @@
+{% extends "base-listview" %}
+
+{% block header %}
+<sp-split-row style="padding: var(--sp-spacing-6) var(--sp-spacing-5)">
+  <div slot="left">
+    <sp-column>
+      <sp-heading size="2xl" level="1">
+        {% block title %}
+          Jobs Platform Page
+        {% endblock title %}
+      </sp-heading>
+    <sp-row style="--sp-row-spacing: var(--sp-spacing-3); color: var(--sp-color-neutral-600);">
+      <span>View job list</span>
+    </sp-row>
+    </sp-column>
+  </div>
+</sp-split-row>
+{% endblock header %}
+
+{% set view_uid="form-list" %}
+{% set resource_name="Jobs" %}

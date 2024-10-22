@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "type": "TriggeredAction"
+  },
+  "name": "job-allocation-insert",
+  "enabled": true,
+  "trigger": {
+    "type": "object_modified",
+    "filter": "Operation == 'INSERT'",
+    "schemaName": "JobAllocations"
+  },
+  "action": {
+    "type": "call_url",
+    "url": "https://api.skedulo.com/function/func/func/processJobAllocationInsertChanges",
+    "headers": {
+      "Authorization": "Bearer {{ API_TOKEN_GOES_HERE }}"
+    },
+    "query": "{ JobId ResourceId }"
+  }
+}

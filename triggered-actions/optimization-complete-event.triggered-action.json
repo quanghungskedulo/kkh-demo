@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "type": "TriggeredAction"
+  },
+  "name": "optimization-complete-event",
+  "enabled": true,
+  "trigger": {
+    "filter": "type == 'optimization'",
+    "type": "event"
+  },
+  "action": {
+    "url": "https://api.skedulo.com/function/TestPackage/TestFunction/onOptimizationRunEvent",
+    "headers": {
+      "Authorization": "Bearer {{ API_TOKEN_GOES_HERE }}"
+    },
+    "query": null,
+    "type": "call_url"
+  }
+}

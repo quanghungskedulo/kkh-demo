@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ParentObject",
+  "name": "ParentObject",
+  "field": {
+    "type": "HasMany",
+    "description": "Lookup field to Parent Object",
+    "display": {
+      "label": "Parent Object Lookup",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": true,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "relationship": {
+      "targetObjectName": "ChildObject",
+      "targetObjectIdFieldName": "ParentObjectId"
+    }
+  }
+}

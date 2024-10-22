@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ParentObject",
+  "name": "PicklistField",
+  "field": {
+    "type": "Picklist",
+    "description": "Sample Picklist Field, show on Desktop",
+    "display": {
+      "label": "Picklist Field",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": false,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": false,
+      "accessMode": "ReadWrite"
+    },
+    "multipleAllowed": false,
+    "allowedValues": [
+      {
+        "value": "Value1",
+        "label": "Value 1",
+        "active": true,
+        "default": false
+      },
+      {
+        "value": "Value2",
+        "label": "Value 2",
+        "active": true,
+        "default": false
+      },
+      {
+        "value": "Value3",
+        "label": "Value 3",
+        "active": true,
+        "default": false
+      }
+    ]
+  }
+}

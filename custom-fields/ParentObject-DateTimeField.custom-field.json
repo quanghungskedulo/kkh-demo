@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ParentObject",
+  "name": "DateTimeField",
+  "field": {
+    "type": "DateTime",
+    "description": "Sample date/time field, show on Desktop",
+    "display": {
+      "label": "Date Time Field",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": false,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": false,
+      "accessMode": "ReadWrite"
+    }
+  }
+}

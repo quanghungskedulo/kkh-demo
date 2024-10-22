@@ -1,0 +1,11 @@
+{
+  "type": "webpage",
+  "url": "page",
+  "name": "cli-examples-test-page",
+  "label": "cli-examples Web extension",
+  "description": "test-page from the cli-examples repo",
+  "render": {
+    "type": "page",
+    "showInNavBar": true
+  }
+}

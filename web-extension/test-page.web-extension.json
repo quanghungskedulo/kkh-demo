@@ -1,0 +1,7 @@
+{
+  "metadata": {
+    "type": "WebExtension"
+  },
+  "name": "test-page",
+  "source": "./test-page"
+}

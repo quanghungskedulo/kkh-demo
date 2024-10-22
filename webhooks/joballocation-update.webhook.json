@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "type": "Webhook"
+  },
+  "name": "joballocation-update",
+  "webhook": {
+    "url": "https://test.com/ws/rest/ol/jobAllocations",
+    "headers": {
+      "Authorization": "Basic {{ TOKEN_GOES_HERE }}"
+    },
+    "query": "subscription {\nschemaJobAllocations (operation: [UPDATE], extendedFilter: \"Current.Status != Previous.Status \") {\n operation\n timestamp\n data {\n UID\n Name\n Start\n End\n CreatedDate\n Status\n ResourceId\n }\n previous {\n UID\n Name\n Start\n End\n CreatedDate\n Status\n ResourceId\n }\n}\n}",
+    "type": "graphql"
+  }
+}

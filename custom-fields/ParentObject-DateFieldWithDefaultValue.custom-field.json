@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ParentObject",
+  "name": "DateFieldWithDefaultValue",
+  "field": {
+    "type": "Date",
+    "description": "Sample date field, show on Desktop",
+    "display": {
+      "label": "Date Field",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": false,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": false,
+      "accessMode": "ReadWrite",
+      "defaults": {
+        "defaultValue": "2024-10-04"
+      }
+    }
+  }
+}

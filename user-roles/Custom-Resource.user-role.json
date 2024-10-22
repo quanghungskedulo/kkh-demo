@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "type": "UserRole"
+  },
+  "description": "Resource users with additional permissions",
+  "name": "Custom Resource",
+  "custom":true,
+  "permissionPatterns": [
+    "skedulo.tenant.mobile.v2",
+    "skedulo.tenant.schedule.allocation.confirm",
+    "skedulo.tenant.schedule.allocation.decline",
+    "skedulo.tenant.resource.modify",
+    "skedulo.tenant.schema.view",
+    "skedulo.tenant.schema.vocabulary.view",
+    "skedulo.tenant.lists.view",
+    "skedulo.tenant.lists.views.view",
+    "skedulo.tenant.lists.views.user.modify",
+    "skedulo.tenant.savedViews.viewStates.view",
+    "skedulo.tenant.savedViews.viewStates.user.modify",
+    "skedulo.tenant.savedViews.viewTypes.view",
+    "skedulo.tenant.savedViews.viewTypes.user.modify",
+    "skedulo.tenant.pages.view",
+    "skedulo.tenant.config.organization.view",
+    "skedulo.tenant.config.user.view",
+    "skedulo.tenant.config.user.modify",
+    "skedulo.tenant.attachments.*",
+    "skedulo.tenant.files.view",
+    "skedulo.tenant.data.view",
+    "skedulo.tenant.data.modify",
+    "skedulo.tenant.extension.view",
+    "skedulo.tenant.extension.packages.view"
+  ]
+}

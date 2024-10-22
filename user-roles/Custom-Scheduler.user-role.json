@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "type": "UserRole"
+  },
+  "description": "Scheduler users with additional permissions",
+  "name": "Custom Scheduler",
+  "custom": true,
+  "permissionPatterns": [
+    "skedulo.tenant.web.access",
+    "skedulo.tenant.schedule.*",
+    "skedulo.tenant.availability.*",
+    "skedulo.tenant.resource.*",
+    "skedulo.tenant.optimization.*",
+    "skedulo.tenant.schema.view",
+    "skedulo.tenant.schema.vocabulary.view",
+    "skedulo.tenant.lists.view",
+    "skedulo.tenant.lists.views.view",
+    "skedulo.tenant.lists.views.user.modify",
+    "skedulo.tenant.savedViews.viewStates.view",
+    "skedulo.tenant.savedViews.viewStates.user.modify",
+    "skedulo.tenant.savedViews.viewTypes.view",
+    "skedulo.tenant.savedViews.viewTypes.user.modify",
+    "skedulo.tenant.pages.view",
+    "skedulo.tenant.pages.modify",
+    "skedulo.tenant.config.organization.view",
+    "skedulo.tenant.config.user.view",
+    "skedulo.tenant.config.user.modify",
+    "skedulo.tenant.notifications.deviceInfo.view",
+    "skedulo.tenant.notifications.push.send",
+    "skedulo.tenant.notifications.sms.send",
+    "skedulo.tenant.notifications.template.view",
+    "skedulo.tenant.attachments.*",
+    "skedulo.tenant.files.*",
+    "skedulo.tenant.data.view",
+    "skedulo.tenant.data.modify",
+    "skedulo.tenant.resourceTracking.*",
+    "skedulo.tenant.extension.view",
+    "skedulo.tenant.extension.packages.view"
+  ]
+}

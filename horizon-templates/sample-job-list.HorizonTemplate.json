@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "type": "HorizonTemplate"
+  },
+  "name": "sample-job-list",
+  "description": "",
+  "kind": "PAGE_EXTENDED",
+  "source": "./sample-job-list"
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "ParentObject",
+  "name": "TextAreaField",
+  "field": {
+    "type": "TextArea",
+    "description": "Sample Text Area Field Show on Desktop and Mobile, Editable and Required on Mobile",
+    "display": {
+      "label": "Text Area Field",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": true,
+      "editableOnMobile": true,
+      "requiredOnMobile": true
+    },
+    "constraints": {
+      "required": false,
+      "accessMode": "ReadWrite",
+      "maxLength": 5000
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { Loader } from "./components/Loader/Loader";
 import { Chat } from "./components/Chat/Chat";
 import { Controls } from "./components/Controls/Controls";
 import styles from "./App.module.css";
+import chatBot from "./assets/chat-bot.png";
 
 function App() {
   const assistant = new Assistant();
@@ -58,8 +59,8 @@ function App() {
     <div className={styles.App}>
       {isLoading && <Loader />}
       <header className={styles.Header}>
-        <img className={styles.Logo} src="/chat-bot.png" />
-        <h2 className={styles.Title}>AI Chatbot</h2>
+        <img className={styles.Logo} src={chatBot} />
+        <h2 className={styles.Title}>Sked AI Chatbot</h2>
       </header>
       <div className={styles.ChatContainer}>
         <Chat messages={messages} />

@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "type": "PublicPage"
+  },
+  "name": "tracking",
+  "source": "./tracking",
+  "requiresCompilation": true
+}

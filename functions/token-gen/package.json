@@ -1,0 +1,41 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "dist/handler",
+  "resolutions": {
+    "glob-parent": "^5.1.2",
+    "browserify-sign": "^4.2.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "scripts": {
+    "bootstrap": "yarn install",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --watch --mode=development",
+    "compile": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --mode=production",
+    "format": "prettier --write . --ignore-path .prettierignore"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "18.11.9",
+    "@types/qs": "^6.9.15",
+    "prettier": "2.8.8",
+    "prettier-plugin-organize-imports": "3.2.2",
+    "ts-loader": "8.2.0",
+    "typescript": "5.1.6",
+    "webpack": "4.46.0",
+    "webpack-cli": "4.10.0"
+  },
+  "dependencies": {
+    "@skedulo/function-utilities": "0.0.4",
+    "@skedulo/sdk-utilities": "0.2.36",
+    "@types/jsonwebtoken": "8.5.0",
+    "@types/lodash": "4.14.144",
+    "@types/path-to-regexp": "1.7.0",
+    "axios": "0.21.0",
+    "browserify-sign": "4.2.2",
+    "crypto-js": "^4.2.0",
+    "graphql": "16.6.0",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.21",
+    "path-to-regexp": "3.0.0"
+  }
+}

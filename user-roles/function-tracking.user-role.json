@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "type": "UserRole"
+  },
+  "description": "Role for function-tracking public function",
+  "name": "function-tracking",
+  "permissionPatterns": [
+    "skedulo.tenant.data.view",
+    "skedulo.tenant.data.modify",
+    "skedulo.tenant.extension.packages.view",
+    "skedulo.tenant.mobile.v2",
+    "skedulo.tenant.resourceTracking.view",
+    "skedulo.tenant.resourceTracking.viewOthers",
+    "skedulo.tenant.attachments.view"
+  ],
+  "custom": true
+}

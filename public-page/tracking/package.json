@@ -1,0 +1,50 @@
+{
+  "name": "survey-pages",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base ./",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "local": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "yarn lint",
+    "bootstrap": "yarn install --frozen-lockfile"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "@skedulo/breeze-ui": "^1.13.0",
+    "@skedulo/breeze-ui-react": "^1.13.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "dayjs": "^1.11.11",
+    "google-map-react": "^2.2.1",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-pure-render": "^1.0.2",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1",
+    "react-use-websocket": "^4.8.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/google-map-react": "^2.1.10",
+    "@types/leaflet": "^1.9.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

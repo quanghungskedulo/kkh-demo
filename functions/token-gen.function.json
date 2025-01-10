@@ -1,0 +1,7 @@
+{
+  "metadata": {
+    "type": "Function"
+  },
+  "name": "token-gen",
+  "source": "./token-gen"
+}

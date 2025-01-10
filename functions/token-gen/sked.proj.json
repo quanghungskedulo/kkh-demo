@@ -1,0 +1,16 @@
+{
+  "type": "function",
+  "version": "2",
+  "name": "token-gen",
+  "description": "token generation private function for tracking page",
+  "runtime": "nodejs18.x",
+  "settings": {
+    "configVars": [
+      {
+        "name": "SKEDULO_BASE_URL",
+        "configType": "plain-text",
+        "description": "Skedulo Base URL"
+      }
+    ]
+  }
+}

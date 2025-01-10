@@ -1,0 +1,9 @@
+{
+  "name": "$$FormName$$",
+  "defId": "Job_Products",
+  "engineVersion": "1.0.0",
+  "customFunctionFeatures": {
+    "fetchFunction": false,
+    "saveFunction": false
+  }
+}

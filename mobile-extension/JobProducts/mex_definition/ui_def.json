@@ -1,0 +1,10 @@
+{
+  "firstPage": "WelcomePage",
+  "pages": {
+    "WelcomePage": {
+      "title": "Welcome",
+      "type": "flat",
+      "items": []
+    }
+  }
+}

@@ -68,7 +68,7 @@ async function jobHandler(
     props = encrypt.handleToken(querystring);
 
     const mutation = `{
-    jobs(filter: "UID == '${props.jobId}'") {
+    jobs(filter: "UID == '0014bb0b-9f1c-4d54-85ba-245bc1f793f5'") {
       edges {
         node {
             UID

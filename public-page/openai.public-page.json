@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "type": "PublicPage"
+  },
+  "name": "openai",
+  "source": "./openai",
+  "requiresCompilation": true
+}

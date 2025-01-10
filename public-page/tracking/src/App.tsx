@@ -337,11 +337,21 @@ function App(config: { config: Config }) {
                 </Row>
                 <Row>
                   <Button
-                    variant="custom"
+                    variant="primary"
                     onClick={handleShowCancelModal}
                     style={{ minHeight: "3.5em" }}
                   >
                     Cancel {config.config.JobName}
+                  </Button>
+                </Row>
+                <Row>
+                  <Button
+                    href={`https://kkh-demo.my-dev.test.skl.io/pages/openai/`}
+                    target="_blank"
+                    variant="dark"
+                    style={{ minHeight: "3.5em" }}
+                  >
+                    Ask AI
                   </Button>
                 </Row>
               </Container>

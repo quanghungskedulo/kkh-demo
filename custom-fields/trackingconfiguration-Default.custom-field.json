@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "trackingconfiguration",
+  "name": "Default",
+  "field": {
+    "type": "Boolean",
+    "description": "",
+    "display": {
+      "label": "Default",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": true,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": true,
+      "accessMode": "ReadWrite",
+      "defaults": {
+        "defaultValue": false
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+
+{
+  "metadata": {
+    "type": "TriggeredAction"
+  },
+  "name": "job-updated",
+  "enabled": true,
+  "trigger": {
+    "type": "object_modified",
+    "filter": "Current.End != Previous.End",
+    "schemaName": "Jobs"
+  },
+  "action": {
+    "type": "call_url",
+    "url": "{{ SKEDULO_API_URL }}/function/token-gen/token-gen/generateToken",
+    "headers": {
+      "Authorization": "Bearer {{ SKEDULO_API_TOKEN }}"
+    },
+    "query": "{ UID Start End JobAllocations(filter: \"Status != 'Deleted'\") { ResourceId } }"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "function",
+  "version": "2",
+  "name": "tracking",
+  "description": "backend for tracking page",
+  "runtime": "nodejs18.x",
+  "settings": {
+    "configVars": [
+      {
+        "name": "ENCRYPTION_KEY",
+        "configType": "secret",
+        "description": "The key to use for tracking url token encryption"
+      },
+      {
+        "name": "ENCRYPTION_IV",
+        "configType": "secret",
+        "description": "The IV to use for tracking URL token encryption"
+      },
+      {
+        "name": "GOOGLE_MAPS_KEY",
+        "configType": "secret",
+        "description": "The google maps api key to use for tracking page"
+      }
+    ]
+  }
+}

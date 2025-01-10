@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "trackingconfiguration",
+  "name": "BrandPrimaryColour",
+  "field": {
+    "type": "String",
+    "description": "",
+    "display": {
+      "label": "Brand Primary Colour",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": true,
+      "editableOnMobile": true,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": false,
+      "unique": false,
+      "accessMode": "ReadWrite",
+      "maxLength": 255
+    }
+  }
+}

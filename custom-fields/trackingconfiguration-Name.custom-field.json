@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "type": "CustomField"
+  },
+  "objectName": "trackingconfiguration",
+  "name": "Name",
+  "field": {
+    "type": "String",
+    "description": "",
+    "display": {
+      "label": "Name",
+      "order": 0,
+      "isAlert": false,
+      "showIf": null,
+      "showOnDesktop": true,
+      "showOnMobile": true,
+      "editableOnMobile": false,
+      "requiredOnMobile": false
+    },
+    "constraints": {
+      "required": false,
+      "unique": false,
+      "accessMode": "ReadWrite",
+      "maxLength": 255
+    }
+  }
+}
